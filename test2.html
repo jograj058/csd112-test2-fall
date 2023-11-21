@@ -46,7 +46,8 @@
 <div class="w3-container w3-center w3-animate-left"><h1>Hello everyone, I'm Jograj Singh</h1>
 <h2>I am front end developer and i am learing programming.</h2></div>
 <p class="text-center">As a front-end developer, I specialize in crafting user interfaces for websites and applications. Using HTML, CSS, and JavaScript, I transform design concepts into functional, responsive, and visually appealing web pages. My role involves collaboration with designers, ensuring cross-browser compatibility, and staying updated on the latest web development trends for optimal user experiences.</p>
-    </div>
+<button class="btn">Contact Me</button>
+</div>
 </div>
 </div>
 </section>  
@@ -63,8 +64,35 @@
         </div> 
         <div class="col-12 col-md-12 col-lg-6">
 <p class="t3">I am Jograj,  i am 22 years old, a dynamic individual residing in Kalanaur, Punjab, India. My father name is Manohar lal and mother name is Harjeet Kaur. My grandfather name is Charan das and grandmother Name is Raj rani. My journey through life is marked by a profound interest in computers, where I find endless possibilities for creativity and problem-solving. Whether delving into coding, exploring new technologies, or simply navigating the digital realm, my fascination with computers is a cornerstone of my identity. Beyond the virtual world, I am equally passionate about cricket, where I not only find joy in the sport itself but also appreciate the values of teamwork and healthy competition. Alongside my love for cricket, I am an avid reader, delving into books that transport me to different worlds and perspectives. Additionally, my enthusiasm for travel reflects a desire to explore the diverse tapestry of cultures and landscapes. Whether immersed in the digital landscape, wielding a cricket bat, lost in a good book, or exploring new horizons, I approach each endeavor with an open mind and an unwavering spirit.</p>
-        </div>
+ <div class="js">
+    <h1>My birthdate</h1>
+
+    <button onclick="typeWriter()">Click me</button>
+    
+    <p id="demo" class="bangan"></p>
+    
+    <script>
+    var i = 0;
+    var txt = 'My date of birth is 27 december 2001';
+    var speed = 50;
+    
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
+ </div>
+ 
+</div>
     </div>
+    
+
+</body>
+</html>
+
 </div>
 
 

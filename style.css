@@ -20,13 +20,19 @@ first{
     background-color: black;
 }
 h1{
-    color: blueviolet;
+    color: rgb(255, 132, 0);
     margin-top: 150px;
 }
 .text-center{
     margin-top: 20px;
     line-height: 1cm;
     color: aqua;
+}
+.btn{
+    align-items: center;
+    color: blue;
+    background-color: white;
+    margin-left: 230px;
 }
 .text4{ color: white;
     text-align: center;
@@ -44,8 +50,15 @@ h3{
     font-weight: 400;
     line-height: 1rem;
     font-style: italic;
-    color: rgb(255, 0, 153); 
+    color: white; 
     letter-spacing: 0.07rem;
     line-height: 1.55rem;
     margin-top: 45px;
+}
+.js{
+    align-items: center;
+}
+
+.bangan{
+    color: white!important;
 }
