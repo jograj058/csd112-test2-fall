@@ -18,6 +18,9 @@ first{
 }
 h1{
     color: blueviolet;
-    margin-top: 50px;
+    margin-top: 150px;
 }
-
+.text-center{
+    margin-top: 20px;
+    line-height: 1cm;
+}
