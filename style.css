@@ -1,3 +1,6 @@
+.main{
+    background-color: black!important;
+}
 .navbar{
     background-color: rgb(67, 148, 0);
 }
@@ -23,4 +26,26 @@ h1{
 .text-center{
     margin-top: 20px;
     line-height: 1cm;
+    color: aqua;
+}
+.text4{ color: white;
+    text-align: center;
+
+}
+h2{
+    color:rgb(255, 132, 0);
+}
+h3{
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.t3{
+    font-weight: 400;
+    line-height: 1rem;
+    font-style: italic;
+    color: rgb(255, 0, 153); 
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    margin-top: 45px;
 }
