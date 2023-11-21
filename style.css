@@ -11,6 +11,13 @@
 }
 .navbar a:hover{
     color: red;
-    margin-right: 50px;
+   
+}
+first{
+    background-color: black;
+}
+h1{
+    color: blueviolet;
+    margin-top: 50px;
 }
 
