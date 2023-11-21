@@ -1,0 +1,16 @@
+.navbar{
+    background-color: rgb(67, 148, 0);
+}
+.navbar-brand{
+    color: red;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: red;
+    margin-right: 50px;
+}
+
